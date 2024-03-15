@@ -1,0 +1,26 @@
+.cabecalho {
+    margin: 2em 6em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
+.logo-auditorium {
+    max-width: 5%;
+    max-height: 5%;
+    border: 0.125rem solid var(--cor-terciaria);
+    border-radius: 1rem;
+}

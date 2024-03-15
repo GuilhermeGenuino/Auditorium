@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/cabecalho.css">
+    <link rel="stylesheet" href="./style/Apresentacao.css">
+    <link rel="stylesheet" href="./style/apresentacao__trabalhos.css">
+    <link rel="stylesheet" href="./style/parceiros.css">
+</head>
+
+<body>
+    <section class="apresentacao">
+        <header class="cabecalho">
+            <img class="logo-auditorium" src="/assets/Logo Auditorium.jpg">
+            <nav class="cabecalho__menu">
+                <a class="cabecalho__menu__link" href="index.html">Home</a>
+                <a class="cabecalho__menu__link" href="#">Sobre a Auditorium</a>
+                <a class="cabecalho__menu__link" href="#">Contato</a>
+            </nav>
+        </header>
+        <h1 class="apresentacao__titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destaque"> com um
+                dashboard de qualidade!</strong></h1>
+        <p class="apresentacao__texto">
+            Olá! Seja bem vindo a Auditorium, Somos uma equipe de especialistas em gestão empresarial, marketing
+            digital, PowerBI e ChatBot. Ajudamos pequenos
+            negócios e empresários a colocarem em prática boas ideias. Vamos conversar?
+        </p>
+    </section>
+    <section class="apresentacao__trabalhos">
+        <h2 class="apresentacao__trabalho__titulo">Alguns de nossos serviços</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="assets/Imagem do WhatsApp de 2024-02-13 à(s) 22.20.57_19cfecef.jpg"
+                        class="img__demonstracao"></div>
+                <div class="swiper-slide"><img src="assets/Imagem do WhatsApp de 2024-02-13 à(s) 22.20.58_855f85e7.jpg"
+                        class="img__demonstracao"></div>
+                <div class="swiper-slide"><img src="assets/Imagem do WhatsApp de 2024-02-13 à(s) 22.20.58_ad57d8bb.jpg"
+                        class="img__demonstracao"></div>
+            </div>
+        </div>
+    </section>
+    <section class="parceiros">
+        <div class="parceiros__apresentacao">
+            <h2 class="parceiros__apresentacao__titulo">Equipe Auditorium</h2>
+            <div class="parceiros__apresentacao__fotos">
+                <div>
+                    <img src="/assets/Renato.png" class="parceiros__apresentacao__fotos__foto" />
+                    <p class="parceiros__apresentacao__fotos__descricao-foto">Renato Gonçalves</p>
+                </div>
+                <div>
+                    <img src="/assets/Vitor.png" class="parceiros__apresentacao__fotos__foto" />
+                    <p class="parceiros__apresentacao__fotos__descricao-foto">Vitor</p>
+                </div>
+                <div>
+                    <img src="/assets/Maycon Ribeiro.png" class="parceiros__apresentacao__fotos__foto" />
+                    <p class="parceiros__apresentacao__fotos__descricao-foto">Maycon Ribeiro</p>
+                </div>
+            </div>
+        </div>
+        <div class="parceiros__redes">
+            <h2 class="parceiros__redes__titulo">Acesse nossas redes:</h2>
+            <div class="parceiros__redes__links">
+                <a class="parceiros__redes__links__navegacao" href="https://www.instagram.com/auditoriumcorp/"><img
+                        src="./assets/instagram.png">Instagram</a>
+                <a class="parceiros__redes__links__navegacao" href="#"><img src="./assets/Whatsapp.png">WhatsApp</a>
+                <a class="parceiros__redes__links__navegacao" href="#"><img src="./assets/linkedin.png">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+    <footer class="rodape">
+        <p>Desenvolvido por Guilherme Genuino</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            autoplay: {
+                delay: 5000,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        }); 
+    </script>
+</body>
+
+</html>
