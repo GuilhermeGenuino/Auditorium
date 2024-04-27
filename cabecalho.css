@@ -1,0 +1,17 @@
+.cabecalho {
+    background-color: black;
+    padding: 2em 4em 2em 4em;
+    font-family: "Open Sans", sans-serif;
+}
+
+.cabecalho__menu {
+    display: flex;
+    color: white;
+    gap: 7em;
+    font-weight: 700;
+    justify-content: center;
+}
+
+.cabecalho__menu__link:hover {
+    color: #dbdadc;
+}

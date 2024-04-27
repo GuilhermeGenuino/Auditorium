@@ -1,0 +1,23 @@
+.introduction {
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+}
+
+.Logo-introduction {
+    height: 40px;
+    width: 40px;
+    margin: 0.9em;
+}
+
+.titulo-introduction {
+    text-align: center;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 30.3px;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+.titulo-introduction__div {
+    width: 100%;
+}

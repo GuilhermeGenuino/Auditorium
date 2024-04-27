@@ -1,0 +1,9 @@
+.sessao-logo {
+    background-image: url('img/background-abertura.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 164.8PX)
+}

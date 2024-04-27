@@ -1,0 +1,39 @@
+.footer {
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    padding: 2em 10em 1em 10em;
+    justify-content: space-between;
+    background-image: url('img/background-servicos.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-siga_nos, .footer-politica,  .footer-contato {
+    gap: 2em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-titulos {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.footer-opcoes {
+    font-size: 14.8px;
+}
+.footer-opcoes:hover {
+    color: #777777;
+}
+
+.Desenvolvido {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0.5em;
+}

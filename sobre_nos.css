@@ -1,0 +1,41 @@
+.sobre_nos {
+    background-color: #5B5B5B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    height: 100vh;
+}
+
+.titulo-sobre_nos {
+    color: white;
+    padding: 1em 0 1em 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 37px;
+}
+
+.apresentacao {
+    margin: 1em 5em 4em 5em;
+    padding: 2em 2em 2em 2em;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50px;
+    height: 70vh;
+}
+
+.logo-apresentacao {
+    height: 70px;
+    width: 70px;
+}
+
+.texto_apresentacao {
+    font-weight: 400;
+    font-size: 25.6px;
+    text-align: justify;
+}
+
+.textos_da_apresentacao {
+margin: 3em 4em 5em 4em;
+}

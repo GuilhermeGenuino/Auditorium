@@ -1,0 +1,50 @@
+.equipe {
+    font-family: "Open Sans", sans-serif;
+    padding-bottom: 5em;
+    height: 100vh;
+}
+
+.titulo-equipe {
+    color: black;
+    padding: 1em 0 2em 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 37px;
+}
+
+.box-equipe {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-membros_equipe {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    text-align: center;
+}
+
+.nome_membros {
+    font-size: 20.8px;
+}
+
+.funcao_membros {
+    font-size: 19.1px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.imagem-membro {
+    border-radius: 100%;
+    border-bottom: 0 solid white;
+    border-right: 0 solid white;
+    border-top: 0.2rem solid black;
+    border-left: 0.1rem solid black;
+
+}
+
+.box-membros_categoria {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
