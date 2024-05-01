@@ -21,18 +21,18 @@
 </head>
 
 <body>
-    <section class="introduction">
+    <section class="introduction" id="introduction">
         <img src="img/Logo.png" alt="Logo-Auditorium" class="Logo-introduction">
         <div class="titulo-introduction__div">
             <h1 class="titulo-introduction">O lugar onde sua empresa cresce</h1>
         </div>
     </section>
-    <header class="cabecalho">
+    <header class="cabecalho" id="cabecalho">
         <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="#">Inicio</a>
+            <a class="cabecalho__menu__link" href="#introduction">Inicio</a>
             <a class="cabecalho__menu__link" href="#servicos">Serviços</a>
             <a class="cabecalho__menu__link" href="#sobre_nos">Sobre a Auditorium</a>
-            <a class="cabecalho__menu__link" href="#contato">Contato</a>
+            <a class="cabecalho__menu__link" href="#footer">Contato</a>
         </nav>
     </header>
     <section class="sessao-logo" id="abertura">
@@ -42,15 +42,24 @@
         <h2 class="titulo-servicos">Serviços</h2>
         <div class="servicos-opcoes">
             <div class="servicos-opcoes__chatbot ajust-items">
-                <img src="img/Icone-chatbot.png" alt="icone chatbot" class="icone-chatbot">
+                <picture>
+                    <source srcset="img/servicos/servicos-520px/Icone-chatbot.png" media="(max-width: 520px)">
+                    <img src="img/servicos/Icone-chatbot.png" alt="icone chatbot">
+                </picture>
                 <h3 class="nome-items-servicos">Chatbot</h3>
             </div>
             <div class="servicos-opcoes__dashboard ajust-items">
-                <img src="img/icone-dashboard.png" alt="icone dashboard" class="icone-dashboard">
+                <picture>
+                    <source srcset="img/servicos/servicos-520px/icone-dashboard.png" media="(max-width: 520px)">
+                    <img src="img/servicos/icone-dashboard.png" alt="icone dashboard" class="icone-dashboard">
+                </picture>
                 <h3 class="nome-items-servicos">Dashboard</h3>
             </div>
             <div class="servicos-opcoes__site ajust-items">
-                <img src="img/icone-site.png" alt="icone site" class="icone-site">
+                <picture>
+                    <source srcset="img/servicos/servicos-520px/icone-site.png" media="(max-width: 520px)">
+                    <img src="img/servicos/icone-site.png" alt="icone site" class="icone-site">
+                </picture>
                 <h3 class="nome-items-servicos">Criação de site</h3>
             </div>
         </div>
@@ -60,22 +69,31 @@
         <div class="box-equipe">
             <div class="box-membros_categoria">
                 <div class="box-membros_equipe">
-                    <img src="img/Equipe/Maycon Ribeiro.png" alt="membro de equipe Maycon Ribeiro"
-                        class="imagem-membro">
+                    <picture>
+                        <source srcset="img/Equipe/equipe-520px/MayconRibeiro.png" media="(max-width: 520px)">
+                        <img src="img/Equipe/Maycon Ribeiro.png" alt="membro de equipe Maycon Ribeiro"
+                            class="imagem-membro">
+                    </picture>
                     <div class="box_textos-apresentacao_membros">
                         <h4 class="nome_membros">Maycon Ribeiro</h4>
                         <p class="funcao_membros">Ceo</p>
                     </div>
                 </div>
                 <div class="box-membros_equipe">
-                    <img src="img/Equipe/Victor.png" alt="membro de equipe Victor" class="imagem-membro">
+                    <picture>
+                        <source srcset="img/Equipe/equipe-520px/Victor.png" media="(max-width: 520px)">
+                        <img src="img/Equipe/Victor.png" alt="membro de equipe Victor" class="imagem-membro">
+                    </picture>
                     <div class="box_textos-apresentacao_membros">
                         <h4 class="nome_membros">Victor Gil</h4>
                         <p class="funcao_membros">Sóc. Diretor</p>
                     </div>
                 </div>
                 <div class="box-membros_equipe">
-                    <img src="img/Equipe/Rodrigo.png" alt="membro de equipe Rodrigo" class="imagem-membro">
+                    <picture>
+                        <source srcset="img/Equipe/equipe-520px/Rodrigo.png" media="(max-width: 520px)">
+                        <img src="img/Equipe/Rodrigo.png" alt="membro de equipe Rodrigo" class="imagem-membro">
+                    </picture>
                     <div class="box_textos-apresentacao_membros">
                         <h4 class="nome_membros">Rodrigo</h4>
                         <p class="funcao_membros">Gerente</p>
@@ -84,21 +102,30 @@
             </div>
             <div class="box-membros_categoria">
                 <div class="box-membros_equipe">
-                    <img src="img/Equipe/Renato.png" alt="membro de equipe Renato" class="imagem-membro">
+                    <picture>
+                        <source srcset="img/Equipe/equipe-520px/Renato.png" media="(max-width: 520px)">
+                        <img src="img/Equipe/Renato.png" alt="membro de equipe Renato" class="imagem-membro">
+                    </picture>
                     <div class="box_textos-apresentacao_membros">
                         <h4 class="nome_membros">Renato</h4>
                         <p class="funcao_membros">A. de Sistema</p>
                     </div>
                 </div>
                 <div class="box-membros_equipe">
-                    <img src="img/Equipe/Guilherme.png" alt="membro de equipe Guilherme" class="imagem-membro">
+                    <picture>
+                        <source srcset="img/Equipe/equipe-520px/Guilherme.png" media="(max-width: 520px)">
+                        <img src="img/Equipe/Guilherme.png" alt="membro de equipe Guilherme" class="imagem-membro">
+                    </picture>
                     <div class="box_textos-apresentacao_membros">
                         <h4 class="nome_membros">Guilherme</h4>
                         <p class="funcao_membros">Programador</p>
                     </div>
                 </div>
                 <div class="box-membros_equipe">
-                    <img src="img/Equipe/Leandro.png" alt="membro de equipe Leandro" class="imagem-membro">
+                    <picture>
+                        <source srcset="img/Equipe/equipe-520px/Leandro.png" media="(max-width: 520px)">
+                        <img src="img/Equipe/Leandro.png" alt="membro de equipe Leandro" class="imagem-membro">
+                    </picture>
                     <div class="box_textos-apresentacao_membros">
                         <h4 class="nome_membros">Leandro</h4>
                         <p class="funcao_membros">Programador</p>
@@ -107,7 +134,10 @@
             </div>
             <div class="box-membros_categoria">
                 <div class="box-membros_equipe">
-                    <img src="img/Equipe/Luciana.png" alt="membro de equipe Luciana" class="imagem-membro">
+                    <picture>
+                        <source srcset="img/Equipe/equipe-520px/Luciana.png" media="(max-width: 520px)">
+                        <img src="img/Equipe/Luciana.png" alt="membro de equipe Luciana" class="imagem-membro">
+                    </picture>
                     <div class="box_textos-apresentacao_membros">
                         <h4 class="nome_membros">Luciana</h4>
                         <p class="funcao_membros">G. Comercial</p>
@@ -136,8 +166,18 @@
     <section class="footer" id="footer">
         <div class="footer-siga_nos">
             <h3 class="footer-titulos">Siga-nos</h3>
-            <img src="img/icone-facebook.png" alt="Siga nos no facebook">
-            <img src="img/icone-instagram.png" alt="Siga nos no Instagram">
+            <a href="#">
+                <picture>
+                    <source srcset="img/footer/icone-520px/icone-facebook.png" media="(max-width: 520px)">
+                    <img src="img/footer/icone-facebook.png" alt="Siga nos no facebook">
+                </picture>
+            </a>
+            <a href="https://www.instagram.com/auditoriumcorp/">
+                <picture>
+                    <source srcset="img/footer/icone-520px/icone-instagram.png" media="(max-width: 520px)">
+                    <img src="img/footer/icone-instagram.png" alt="Siga nos no Instagram">
+                </picture>
+            </a>
         </div>
         <div class="footer-politica">
             <h3 class="footer-titulos">Politica</h3>
@@ -150,12 +190,18 @@
         </div>
         <div class="footer-contato">
             <h3 class="footer-titulos">Contato</h3>
-            <img src="img/icone-whatsapp.png">
+            <a href="#">
+                <picture>
+                    <source srcset="img/footer/icone-520px/icone-whatsapp.png" media="(max-width: 520px)">
+                    <img src="img/footer/icone-whatsapp.png">
+                </picture>
+            </a>
         </div>
     </section>
     <section class="Desenvolvido">
         <h3 class="texto-desenvolvido">Desenvolvido por Guilherme Genuino</h3>
     </section>
+    <script src="js.js"></script>
 </body>
 <script>
     // Função para rolar suavemente até a seção alvo

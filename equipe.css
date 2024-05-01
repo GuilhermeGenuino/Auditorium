@@ -48,3 +48,38 @@
     flex-direction: column;
     gap: 2em;
 }
+
+@media screen and (max-width: 520px) {
+    .titulo-equipe {
+        padding: 0.5em 0 1em 0;
+        text-align: center;
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .box-equipe {
+        flex-direction: column;
+        height: 80vh;
+    }
+
+    .box-membros_equipe {
+        flex-direction: column;
+    }
+
+    .box-membros_categoria {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        gap: 2em;
+    }
+
+    .funcao_membros {
+        font-size: 12px;
+    }
+
+    .nome_membros {
+        font-size: 14px;
+    }
+
+}

@@ -39,3 +39,28 @@
 .textos_da_apresentacao {
 margin: 3em 4em 5em 4em;
 }
+
+@media screen and (max-width: 520px) {
+
+    .titulo-sobre_nos {
+        padding: 2em 0 0.5em 0;
+        font-size: 30px;
+    }
+    .apresentacao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0.5em;
+        padding: 1em;
+        gap: 2em;
+    }
+    .texto_apresentacao {
+        font-weight: 400;
+        font-size: 16px;
+        text-align: justify;
+    }
+    .textos_da_apresentacao {
+        margin: auto;
+        padding-bottom: 5em;
+        }
+}

@@ -2,6 +2,7 @@
     padding: 0.5em;
     display: flex;
     align-items: center;
+    position: static;
 }
 
 .Logo-introduction {
@@ -20,4 +21,18 @@
 
 .titulo-introduction__div {
     width: 100%;
+}
+
+@media screen and (max-width: 520px) {
+    .titulo-introduction {
+        font-family: "Hanken Grotesk", sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        letter-spacing: 1px;
+    }
+    .Logo-introduction {
+        height: 20px;
+        width: 20px;
+        margin: 0.4em;
+    }
 }

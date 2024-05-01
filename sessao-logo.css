@@ -7,3 +7,9 @@
     justify-content: center;
     height: calc(100vh - 164.8PX)
 }
+
+@media screen and (max-width: 520px) {
+    .sessao-logo {
+        height: calc(100vh - 72px)
+    }
+}

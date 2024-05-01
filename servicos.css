@@ -44,5 +44,31 @@
 }
 
 
-@media screen and (min-width: 1728px) {
+@media screen and (max-width: 520px) {
+    .servicos-opcoes {
+        height: 80vh;
+        margin: 1em;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .servico {
+        height: auto;
+    }
+
+    .titulo-servicos {
+        color: white;
+        padding: 1em 0 1em 0;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .ajust-items {
+        align-items: center;
+    }
+    .nome-items-servicos {
+        font-size: 25px;
+    }
 }
